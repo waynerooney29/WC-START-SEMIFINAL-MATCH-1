@@ -1,0 +1,586 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: orange;
+}
+
+
+
+
+@media only screen and (min-width: 750px) {
+    .body {
+        background: rgb(29, 48, 33);
+        position: absolute;
+    }
+    body {
+        background-color: #000;
+        width: 100%;
+        height: 1000px;
+        background-image: url(../img/Football-and-Soccer-WordPress-Themes.jpg.webp);
+        background: center;
+    }
+    .nav {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        background:green;
+        background-position: center;
+        background-image: url(../img/Football-and-Soccer-WordPress-Themes.jpg.webp);
+    
+    
+        backgroun;
+        background-repeat: repeat;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 90px;
+        border-bottom: 3px orange;
+        box-shadow: 3px 4px 7px orange;
+        padding: 15px;
+
+    }
+    .navimg1a {
+        display: ;
+        background: yellowgreen;
+        margin-right:15px ;
+        margin-left: 15px;
+    }
+    .navimg1b {
+        margin-left: 185px;
+        background: yellowgreen;
+        margin-top: ;
+        border-radius: 25%;
+    }
+    .navimg2, .navimg3 {
+        display: none;
+    }
+    .navsocial {
+        display: none;
+    
+    }
+    
+    #bars {
+        display:none;
+    }
+    .home {
+        margin: 7px;
+        margin-right:10px ;
+    }
+    .box {
+        background: gold;
+    }
+
+    .box {
+        display: flex;
+        width: 100%;
+        height:fit-content;
+        background: rgb(29, 48, 33);
+        margin-top: ;
+    
+        background-position: center;
+    
+        background-repeat: ;
+        background-size: cover;
+    }
+    .box1, .box2,
+    .box3 {
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        z-index: 1;
+        margin-top: 90px;
+        flex-wrap: nowrap;
+    }
+    
+    
+    .box1 {
+        flex: 1;
+        display: none;
+    
+        justify-content:center ;
+        position: ;
+        opacity: 0.75;
+    }
+
+    .box2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        overflow: hidden;
+        right: 0;
+        margin-left: 15px;
+        flex: 7;
+        width: ;
+        flex-wrap: wrap;
+        flex-shrink: inherit;
+
+    }
+    
+
+    .img1, .img2,
+    .img3 {
+        width: 35%;
+        background:#b99e07;
+        height: 700px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-top: 50px;
+   
+        margin-right: 25px;
+        overflow: hidden;
+        box-shadow: 4px 7px 15px black;
+    }
+    .img2 {
+    
+    }
+    .img1, .img2, .img3 {
+        background-image: url(../../img/OIP\ \(6\).jfif);
+    }
+    .img3 {
+        margin-left: 35px;
+    }
+    .img-a {
+        width: 100%;
+        height: 30%;
+    }
+    .match {
+        width: 100%;
+        height: 15%;
+        margin-top: ;
+        background: ;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .team1 {
+        font-size: 25px;
+        margin-top: 5px;
+        padding: 5px;
+        margin-right: 15px;
+    }
+    .team2 {
+        font-size: 25px;
+        margin-top: 5px;
+        padding: 5px;
+        margin-left: 15px;
+    }
+    .team1logo {
+        display: show;
+        margin-right: 5px;
+    }
+    .team2logo {
+        margin-left: 5px;
+    }
+        
+
+    .time {
+        width: 100%;
+        height: 5%;
+        background: rgb(29, 48, 33);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 15px;
+    }
+    .vs {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 50%;
+        background: rgb(29, 48, 33) ;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .button {
+        width: 100%;
+        height: 35%;
+        background-color: rgb(29, 48, 33);
+        display: flex;
+        padding: ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+
+        border-radius: 7px;
+    }
+    button {
+        width: 75%;
+        height: 35px;
+        font-size: 15px;
+        background: red;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center; 
+        margin-bottom: 0px;
+    }
+    .b1 {
+    
+    }
+    .b1:hover {
+        width: 100%;
+        background: rgb(29, 48, 33);
+        color: blue;
+        position: ;
+        box-shadow: 3px 7px 14px red;
+        border: 1px solid red;
+    
+    }
+    button:hover {
+        width: 100%;
+        background: rgb(29, 48, 33);
+        color: blue;
+        position: ;
+        box-shadow: 3px 7px 14px red;
+        border: 1px solid red;
+    }
+
+    .box3 {
+        flex:1;
+    
+        opacity: 0.75;
+   
+    }
+    button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  
+  }
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+.body {
+    background-color: rgb(29, 48, 33);
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/Football-and-Soccer-WordPress-Themes.jpg.webp);
+    background: center;
+}
+.nav {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    background:green;
+    background-position: center;
+    background-image: url(../img/Football-and-Soccer-WordPress-Themes.jpg.webp);
+    
+    
+    backgroun;
+    background-repeat: repeat;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    border-bottom: 3px orange;
+    box-shadow: 3px 4px 7px orange;
+    padding: 15px;
+
+}
+
+
+.nav_links {
+    position: absolute;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+    height: 100vh;
+    overflow: hidden;
+    background: #f8ec07b1;
+    padding: 75px 100px;
+    top: 90px;
+    left: 0;
+    right: 0;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    /* display: none; */
+  }
+
+  .l-icon { 
+    font-size: 250px;
+    font-size: 250px;
+    /* height: 10px; */
+  }
+  .show {
+    /* display: block; */
+    transform: translateX(0%);
+    height: 100vh;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .nav_links a {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+#bars {
+    font-size: 50px;
+}
+
+
+.navimg1a {
+    display: ;
+    background: yellowgreen;
+    margin-right:5px ;
+    border-radius: 5px;
+}
+
+.navimg1b {
+    background: yellowgreen;
+    border-radius: 25%;
+    display: ;
+}
+.navimg2, .navimg3 {
+    display: none;
+}
+.navsocial {
+    display: none;
+    
+}
+.home {
+    margin: px;
+
+
+    margin-right:10px ;
+}
+
+.l-icon {
+    width: 50px;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    height:fit-content;
+    background: rgb(29, 48, 33);
+    margin-top: ;
+    
+    background-position: center;
+    
+    background-repeat: ;
+    background-size: cover;
+}
+.box1, .box2,
+.box3 {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 1;
+    margin-top: 90px;
+    flex-wrap: nowrap;
+}
+    
+    
+.box1 {
+    flex: 1;
+    display: none;
+    
+    justify-content:center ;
+    position: ;
+    opacity: 0.75;
+}
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+    flex: 7;
+    width: ;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+
+}
+
+.box3 {
+    
+}
+
+.img1, .img2,
+.img3, .img5 {
+    width: 75%;
+    background:#b99e07;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+   
+    margin-right: 5px;
+    overflow: hidden;
+    box-shadow: 4px 7px 15px black;
+}
+.img1 {
+    width: 70%;
+    bottom: 40px;
+    padding: 30px;
+    margin-bottom: 40px;
+
+}
+.img2 {
+    
+}
+.img1, .img2, .img3, .img5 {
+    background-image: url(../../img/OIP\ \(6\).jfif);
+}
+.img3 {
+    margin-left: 35px;
+}
+.img-a {
+    height: 20%;
+}
+.img5 {
+    margin-left: 40px;
+}
+.match {
+    width: 100%;
+    background: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team1 {
+    margin-top: ;
+    
+}
+
+.time {
+    width: 100%;
+    background: rgb(29, 48, 33);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+}
+.vs {
+    padding: 10px;
+    border-radius: 50%;
+    background: rgb(29, 48, 33) ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.team1logo, .team2logo {
+    /* display: none; */
+}
+
+.button {
+    width: 100%;
+    height: 35%;
+    background-color: rgb(29, 48, 33);
+    display: flex;
+    padding: ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+    border-radius: 7px;
+}
+button {
+    width: 75%;
+    height: 25px;
+    font-size: 10px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 0px;
+}
+.b1 {
+    
+}
+.b1:hover {
+    width: 100%;
+    background: rgb(29, 48, 33);
+    color: blue;
+    position: ;
+    box-shadow: 3px 7px 14px red;
+    border: 1px solid red;
+    
+}
+button:hover {
+    width: 100%;
+    background: rgb(29, 48, 33);
+    color: blue;
+    position: ;
+    box-shadow: 3px 7px 14px red;
+    border: 1px solid red;
+}
+
+.box3 {
+    flex:1;
+    display: none;
+    
+    opacity: 0.75;
+   
+}
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background: green
+    opacity: ;
+    text-align: center;
+    line-height: 50px;
+    top: 100px;
+    
+}
+.footer {
+    background-color: rgb(12, 73, 12);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.f-icon {
+    /* background: grey; */
+}
+.fa-google {
+    padding: 15px;
+}
